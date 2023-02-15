@@ -1,0 +1,2 @@
+#!/bin/bash
+echo {a..z}{a..b} | tr ' ' '\n' \ group -v "oo"
